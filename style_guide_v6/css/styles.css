@@ -139,4 +139,19 @@ p {
   }
 }
 
+.container {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav {
+  text-align: center;
+}
+.nav li {
+  display: block;
+}
+
 /*# sourceMappingURL=styles.css.map */

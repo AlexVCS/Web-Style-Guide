@@ -7,3 +7,22 @@
 @import 'grid';
 
 // NOTE: import other components here:
+
+.container {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav {
+    text-align: center;
+    li {
+        
+        display: block;
+    }
+}
+
+
+// ADD TO TYPOGRAPHY BUTTON background-color: #58E1C1; //
