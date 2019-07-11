@@ -3,13 +3,12 @@
 // Main Sass file used to import partials
 // **************************************
 
-p {
-    font-size: 90px;
-}
 
 // NOTE: import utilities and base partials here:
 
 
 
 // import components partials
-@import 'components/index';
+@import 'utilities/index.scss';
+@import 'base/index.scss';
+@import 'components/index.scss';
