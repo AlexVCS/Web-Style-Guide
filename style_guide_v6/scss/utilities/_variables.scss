@@ -4,11 +4,13 @@ $lato-font                : 'https://fonts.googleapis.com/css?family=Lato:300,30
 
 $font-family-primary      : 'Lato', Helvetica, Arial- sans-serif;
 
-// Font Weight
+// Font Variables
 
 $light-font               : 300;
 $medium-font              : 400;
 $heavy-font               : 700;
+$headline-color           : #58E1C1;
+$link-example-color       : #51DDFC;
 
 // Button Colors
 
@@ -28,3 +30,8 @@ $col_3                    : #DEB2EE;
 $col_5                    : #88D9A0;
 $col_7                    : #EC9FA3;
 $col_8                    : #FD9F85;
+
+// Media Query Breakpoints
+
+$brk-mobile               : '(min-width: 480px)';   
+$brk-dsktp                : '(min-width: 1400px)';
