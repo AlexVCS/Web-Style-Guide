@@ -1,0 +1,11 @@
+// Media Queries
+
+@mixin mq($break) {
+    @if $break == "mobile" {
+        @media (min-width: $brk-mobile) and (max-width: $brk-dsktp) {
+            @content;
+        }
+    }
+    @else if $break == "tablet" {
+        @media (min-width: $brk-tablet + 1) { @content; }
+    }
