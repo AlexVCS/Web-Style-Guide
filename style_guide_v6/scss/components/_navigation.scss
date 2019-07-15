@@ -1,7 +1,9 @@
 .nav {
     text-align: center;
     li {
-        
-        display: inline;
+        display: block;
+    }
+li a:hover {
+        background-color: $nav-color;
     }
 }
