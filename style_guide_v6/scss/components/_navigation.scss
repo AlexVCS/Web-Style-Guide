@@ -1,9 +1,27 @@
-.nav {
+.grid__col--9 { 
+    
     text-align: center;
-    li {
+
+    .nav {
+    text-align: center;
+    ul {
         display: block;
+
+    ul .nav__iten {
+        font-size: 16px;
     }
-li a:hover {
-        background-color: $nav-color;
-    }
+        
+    a:hover {
+            background-color: $nav-color;
+        }
+}}
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.grid__col--3 {
+    margin: auto;
 }
