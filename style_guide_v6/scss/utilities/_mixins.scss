@@ -1,11 +1,28 @@
-// Media Queries
+// Media Query Mixins
 
 @mixin mq($break) {
     @if $break == "mobile" {
-        @media (min-width: $brk-mobile) and (max-width: $brk-dsktp) {
+        @media (min-width: $brk-mobile) {
             @content;
         }
     }
     @else if $break == "tablet" {
-        @media (min-width: $brk-tablet + 1) { @content; }
+        @media (min-width: $brk-tablet) {
+            @content; }
     }
+
+    @else if $break == "dsktp" {
+        @media (min-width: $brk-dsktp) {
+            @content;
+        }
+    }
+
+// Flexbox Mixins
+
+@mixin flex($flex: flex) {
+    display: $flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    @content;
+}

@@ -10,6 +10,13 @@
 
 @import 'typography';
 
+@import 'navigation';
+
+@import 'images';
+
+@import 'forms';
+
+@import 'buttons';
 
 
 .container {
@@ -20,10 +27,3 @@ ul {
     list-style-type: none;
 }
 
-.nav {
-    text-align: center;
-    li {
-        
-        display: block;
-    }
-}

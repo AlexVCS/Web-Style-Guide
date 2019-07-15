@@ -1,9 +1,9 @@
-/* Error: expected "}".
+/* Error: Mixins may not contain mixin declarations.
  *    ,
- * 11 |     }
- *    |      ^
+ * 22 | @mixin flex($flex: flex) {
+ *    | ^^^^^^^^^^^^^^^^^^^^^^^^
  *    '
- *   scss/utilities/_mixins.scss 11:6  @import
+ *   scss/utilities/_mixins.scss 22:1  @import
  *   scss/utilities/_index.scss 3:9    @import
  *   scss/styles.scss 12:9             root stylesheet */
 
@@ -15,5 +15,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected "}".\a    \2577 \a 11 \2502      }\a    \2502       ^\a    \2575 \a   scss/utilities/_mixins.scss 11:6  @import\a   scss/utilities/_index.scss 3:9    @import\a   scss/styles.scss 12:9             root stylesheet';
+  content: "Error: Mixins may not contain mixin declarations.\a    \2577 \a 22 \2502  @mixin flex($flex: flex) {\a    \2502  ^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   scss/utilities/_mixins.scss 22:1  @import\a   scss/utilities/_index.scss 3:9    @import\a   scss/styles.scss 12:9             root stylesheet";
 }
