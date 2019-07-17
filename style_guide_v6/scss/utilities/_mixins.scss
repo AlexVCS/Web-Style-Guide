@@ -27,3 +27,19 @@
     align-items: center;
     @content;
 }
+
+// Navigation Mixins
+
+@mixin nav {
+    list-style: none;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 5px;
+    display: inline;
+
+
+    &:hover {
+        background-color: $nav_color;
+    }
+
+}

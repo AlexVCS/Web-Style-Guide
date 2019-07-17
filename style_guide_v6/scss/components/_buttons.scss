@@ -1,0 +1,26 @@
+.btn--default {
+    width: 100%;
+    background-color: $login_and_def_color;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.btn--success {
+    width: 100%;
+    background-color: $success_color;
+}
+
+.btn--error {
+    width: 100%;
+    background-color: $error_color;
+}
+
+.btn--warning {
+    width: 100%;
+    background-color: $warning_color;
+}
+
+.btn--info {
+    width: 100%;
+    background-color: $info_color;
+}
