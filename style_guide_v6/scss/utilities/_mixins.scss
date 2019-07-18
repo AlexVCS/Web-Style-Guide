@@ -1,21 +1,20 @@
 // Media Query Mixins
 
-@mixin mq($break) {
-    @if $break == "mobile" {
-        @media (min-width: $brk-mobile) {
+@mixin mobile {
+    @media (min-width: $brk-mobile) {
             @content;
         }
     }
-    @else if $break == "tablet" {
-        @media (min-width: $brk-tablet) {
+
+@mixin tablet {
+    @media (min-width: $brk-tablet) {
             @content; }
     }
 
-    @else if $break == "dsktp" {
-        @media (min-width: $brk-dsktp) {
+@mixin dsktp {
+    @media (min-width: $brk-dsktp) {
             @content;
         }
-    }
 }
 
 // Flexbox Mixins
@@ -35,6 +34,9 @@
     text-align: center;
     background-color: #fff;
     margin-bottom: 5px;
+    font-family: $font-family-primary;
+    font-weight: $medium-font;
+    
 
 
     &:hover {
