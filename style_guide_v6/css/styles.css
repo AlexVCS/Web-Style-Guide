@@ -487,14 +487,30 @@ template {
   text-align: center;
   background-color: #fff;
   margin-bottom: 5px;
-  display: inline;
 }
 .grid__col--9:hover {
   background-color: #58E1C1;
 }
 
+ul {
+  display: inline;
+}
+
 .grid__col--3 {
   margin: auto;
+}
+
+.img--avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img--frame {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: double 16px lightgrey;
 }
 
 .btn--default {
