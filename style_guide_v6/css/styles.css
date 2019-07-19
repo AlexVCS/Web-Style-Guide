@@ -514,6 +514,15 @@ ul {
   border: double 16px lightgrey;
 }
 
+.form__label--hidden {
+  display: none;
+}
+
+.form__input {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
 .btn--default {
   width: 100%;
   background-color: #51DDFC;
