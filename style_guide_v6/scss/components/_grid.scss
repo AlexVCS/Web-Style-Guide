@@ -55,6 +55,10 @@
   background-color: $turquoise-blue;
 }
 
+.grid__col--6.theme__colors {
+  background-color: $viking;
+}
+
 // targets all elements with classes that begin with grid__col
 [class^=grid__col] {
   // grid__col + grid__col, targets two sibling columns
