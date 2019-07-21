@@ -8,6 +8,12 @@
 
 * {
   font-family: "Lato", Helvetica, Arial- sans-serif;
+  font-weight: 400;
+}
+
+p {
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -477,24 +483,51 @@ template {
 .grid [class^=grid__col] + .grid [class^=grid__col] {
   margin-left: 10px;
 }
-.grid__col--9 {
+.headline--primary {
+  font-weight: bold;
+  width: 70%;
+  padding-left: 40px;
+}
+
+.blockquote {
+  margin: 0 auto;
+  font-style: italic;
+  font-size: 19px;
+  border-left: 5px solid #58E1C1;
+  padding-left: 15px;
+}
+
+.form {
+  padding-top: 50px;
+}
+
+.grid__col--9 ul {
   list-style: none;
   text-align: center;
+  color: #000;
   background-color: #fff;
-  margin-bottom: 5px;
+  margin-bottom: 5x;
+  height: 45px;
+  width: 100%;
   font-family: "Lato", Helvetica, Arial- sans-serif;
   font-weight: 400;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding: 0;
+  display: block;
 }
-.grid__col--9:hover {
+.grid__col--9 ul:hover {
   background-color: #58E1C1;
+  color: #fff;
 }
 
-ul {
-  display: inline;
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .grid__col--3 {
@@ -520,7 +553,9 @@ ul {
 
 .form__input {
   width: 100%;
-  padding-bottom: 20px;
+  padding: 5px 15px 25px 15px;
+  border: none;
+  border-bottom: 3px solid #58E1C1;
 }
 
 .btn--default {

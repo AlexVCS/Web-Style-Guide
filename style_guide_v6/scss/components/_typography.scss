@@ -1,7 +1,22 @@
 .headline--primary {
     @extend%headline--primary;
+    font-weight: bold;
+    width: 70%;
+    padding-left: 40px;
 }
 
 .link {
     @extend%link;
+}
+
+.blockquote {
+    margin: 0 auto;
+    font-style: italic;
+    font-size: 19px;
+    border-left: 5px solid #58E1C1;
+    padding-left: 15px;
+}
+
+.form {
+    padding-top: 50px;
 }

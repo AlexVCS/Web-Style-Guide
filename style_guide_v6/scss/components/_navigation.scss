@@ -1,14 +1,17 @@
-.grid__col--9 { 
+.grid__col--9 ul { 
     
     @include nav;
     @include flex;
+    padding: 0;
+    display: block;
 
 }
 
-ul {
-    display: inline;
+.nav {
+    @include flex;
 }
 
 .grid__col--3 {
     margin: auto;
 }
+
