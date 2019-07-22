@@ -30,17 +30,10 @@
       // selector would be .grid__col--1
       //&--#{$i}
 
-        // base styles applied to all grid columns 
-        // NOTE: could be converted to a placeholder, along with margin
-        // from the  media query
-        margin-top: 10px;
-        flex-basis: 100%;
+        @extend %grid_cols;
 
         // NOTE: replace with media query mixin if aiming for exceeds
         @media (min-width: 768px) {
-
-          // base stlyes applied to all grid columns
-          margin-top: 0;
 
 
           // make column width a percentage of the column number / total columns
@@ -61,6 +54,22 @@
 
 .grid__col--4.theme__colors {
   background-color: $electric-blue;
+}
+
+.grid__col--3.theme__colors {
+  background-color: $wisteria;
+}
+
+.grid__col--5.theme__colors {
+  background-color: $granny-smith;
+}
+
+.grid__col--7.theme__colors {
+  background-color: $wax-flower;
+}
+
+.grid__col--8.theme__colors {
+  background-color: $mona-lisa;
 }
 
 // targets all elements with classes that begin with grid__col
