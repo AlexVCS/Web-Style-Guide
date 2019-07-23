@@ -3,8 +3,17 @@
 }
 
 .form__input {
-    width: 100%;
+    width: 80%;
     padding: 5px 15px 25px 15px;
     border: none;
     border-bottom: 3px solid #58E1C1;
+    margin-bottom: 15px;
+}
+
+.form button {
+    width: 90%;
+    @extend%button--text;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
 }

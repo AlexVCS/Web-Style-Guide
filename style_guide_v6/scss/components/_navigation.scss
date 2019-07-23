@@ -1,15 +1,29 @@
 .grid__col--9 ul { 
-    
-    @include nav;
-    @include flex;
     padding: 0;
     display: block;
-
 }
 
-.nav {
+.nav li {
+    line-height: 25px;
+    margin-bottom: 15px;
+
+    @include nav;
+
+    &hover {
+        background-color: $nav_color;
+        color: #fff;
+        border-radius: 5px;
+    }
+}
+
+.nav__item {
     @include flex;
 }
+
+.nav__item a {
+    @include nav_buttons;
+}
+
 
 .grid__col--3 {
     margin: auto;

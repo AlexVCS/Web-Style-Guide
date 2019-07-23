@@ -5,15 +5,38 @@
     padding-left: 40px;
 }
 
+.headline--secondary {
+    @extend%headline--secondary;
+    margin-left: 20px;
+}
+
+p {
+    line-height: 27px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.link {
+    text-decoration-line: none;
+}
+
+.card h4 {
+    padding-left: 20px;
+}
+
 .link {
     @extend%link;
 }
 
 .blockquote {
-    margin: 0 auto;
+    @include flex;
     font-style: italic;
-    font-size: 19px;
-    border-left: 5px solid #58E1C1;
+    font-size: 28px;
+    line-height: 32px;
+    border-left: 7px solid #58E1C1;
+    border-radius: 4px;
     padding-left: 15px;
 }
 

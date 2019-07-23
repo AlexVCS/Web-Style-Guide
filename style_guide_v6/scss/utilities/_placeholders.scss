@@ -6,13 +6,27 @@
     color: $headline-color;
 }
 
+%headline--secondary {
+    font-weight: $light-font;
+    color: #000;
+}
+
 %button--text {
     text-transform: uppercase;
     color: #fff;
+}
+
+%img {
+    display: block;
+    margin: 0 auto;
 }
 
 %grid_cols {
     margin-top: 10px;
     flex-basis: 100%;
     margin-top: 0;
+}
+
+%grid_space {
+    margin-bottom: 10px;
 }
