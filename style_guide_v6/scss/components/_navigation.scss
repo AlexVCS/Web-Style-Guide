@@ -1,18 +1,21 @@
 .grid__col--9 ul { 
     padding: 0;
     display: block;
+    
 }
 
 .nav li {
-    line-height: 25px;
-    margin-bottom: 15px;
+    line-height: 45px;
+    margin-bottom: 5px;
 
     @include nav;
 
-    &hover {
+    &:hover {
         background-color: $nav_color;
-        color: #fff;
         border-radius: 5px;
+        a {
+            color: #fff;
+        }
     }
 }
 

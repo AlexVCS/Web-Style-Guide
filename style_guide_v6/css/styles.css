@@ -542,17 +542,19 @@ p {
 }
 
 .nav li {
-  line-height: 25px;
-  margin-bottom: 15px;
+  line-height: 45px;
+  margin-bottom: 5px;
   list-style: none;
   text-align: center;
   font-family: "Lato", Helvetica, Arial- sans-serif;
   font-weight: 400;
 }
-.nav lihover {
+.nav li:hover {
   background-color: #58E1C1;
-  color: #fff;
   border-radius: 5px;
+}
+.nav li:hover a {
+  color: #fff;
 }
 
 .nav__item {
@@ -569,6 +571,10 @@ p {
 
 .grid__col--3 {
   margin: auto;
+}
+
+.img--logo {
+  margin-top: 20px;
 }
 
 .img--frame {

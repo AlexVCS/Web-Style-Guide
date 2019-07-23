@@ -1,3 +1,7 @@
+.img--logo {
+    margin-top: 20px;
+}
+
 .img--frame {
     @extend %img;
     border: 1px solid grey;
