@@ -30,3 +30,9 @@
     font-weight: $light-font, bold;
     @include flex;
 }
+
+.grid__col--12 {
+    @include dsktp {
+        display: flex;
+    }
+}

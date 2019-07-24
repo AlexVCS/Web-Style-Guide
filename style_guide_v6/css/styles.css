@@ -556,6 +556,12 @@ p {
 .nav li:hover a {
   color: #fff;
 }
+@media (min-width: (min-width: 1400px)) {
+  .nav li {
+    width: 70%;
+    flex-direction: column;
+  }
+}
 
 .nav__item {
   display: flex;
@@ -639,6 +645,12 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: (min-width: 1400px)) {
+  .grid__col--12 {
+    display: flex;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
