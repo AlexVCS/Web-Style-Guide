@@ -1,6 +1,11 @@
 .grid__col--9 ul { 
     padding: 0;
     display: block;
+
+    @include dsktp {
+        width: 70%;
+        flex-direction: column;
+    }
 }
 
 .nav li {
@@ -15,11 +20,6 @@
         a {
             color: #fff;
         }
-    }
-
-    @include dsktp {
-        width: 70%;
-        flex-direction: column;
     }
 }
 

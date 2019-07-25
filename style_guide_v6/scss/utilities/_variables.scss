@@ -38,6 +38,6 @@ $mona-lisa                : #FD9F85;
 
 // Media Query Breakpoints
 
-$brk-mobile               : '(min-width: 480px)';
-$brk-tablet               : '(min-width: 768px)';   
-$brk-dsktp                : '(min-width: 1400px)';
+$brk-mobile               : 480px;
+$brk-tablet               : 768px;   
+$brk-dsktp                : 1400px;

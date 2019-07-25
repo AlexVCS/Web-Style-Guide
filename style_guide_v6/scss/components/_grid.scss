@@ -17,7 +17,9 @@
     flex-direction: column;
 
     // NOTE: replace with media query mixin if aiming for exceeds
-    @include tablet;
+    @include tablet {
+      flex-direction: row; 
+    }
 
   // .grid__col
   &__col {
