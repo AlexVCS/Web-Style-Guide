@@ -16,10 +16,6 @@
             color: #fff;
         }
     }
-
-    @include dsktp {
-        flex-wrap: nowrap;
-    }
 }
 
 .nav__item {
@@ -105,17 +101,6 @@
     
     .grid__col--6 .img--avatar {
       margin-left: 625px;
-    }
-    
-    .grid__col--12 button {
-      display: inline-flex;
-      flex-wrap: nowrap;
-      flex-direction: row;
-      margin-left: 100px;
-      padding-left: 55px;
-      text-align: center;
-      padding-right: 55px;
-      width: 10%;
     }
     
     .grid__col--12.theme__colors,

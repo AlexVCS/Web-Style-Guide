@@ -712,11 +712,6 @@ p {
 .nav li:hover a {
   color: #fff;
 }
-@media (min-width: 1400px) {
-  .nav li {
-    flex-wrap: nowrap;
-  }
-}
 
 .nav__item {
   display: flex;
@@ -803,17 +798,6 @@ p {
     margin-left: 625px;
   }
 
-  .grid__col--12 button {
-    display: inline-flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    margin-left: 100px;
-    padding-left: 55px;
-    text-align: center;
-    padding-right: 55px;
-    width: 10%;
-  }
-
   .grid__col--12.theme__colors,
 .grid__col--6.theme__colors,
 .grid__col--4.theme__colors,
@@ -892,9 +876,17 @@ p {
   justify-content: center;
   align-items: center;
 }
+
 @media (min-width: 1400px) {
   .grid__col--12 button {
-    flex-direction: column;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-left: 100px;
+    padding-left: 55px;
+    text-align: center;
+    padding-right: 55px;
+    width: 10%;
   }
 }
 

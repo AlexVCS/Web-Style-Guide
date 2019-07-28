@@ -29,8 +29,17 @@
     padding-top: 3px;
     font-weight: $light-font, bold;
     @include flex;
+}
 
-    @include dsktp {
-        flex-direction: column;
+@media (min-width: 1400px) {
+    .grid__col--12 button {
+        display: inline-flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        margin-left: 100px;
+        padding-left: 55px;
+        text-align: center;
+        padding-right: 55px;
+        width: 10%;
     }
 }
