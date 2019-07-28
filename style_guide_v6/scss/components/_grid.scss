@@ -18,7 +18,7 @@
 
     // NOTE: replace with media query mixin if aiming for exceeds
     @include tablet {
-      flex-direction: row; 
+      flex-direction: row;
     }
 
   // .grid__col
@@ -35,7 +35,17 @@
         @extend %grid_cols;
 
         // NOTE: replace with media query mixin if aiming for exceeds
-        @media (min-width: 768px) {
+        @include tablet {
+
+          .grid__col--12.theme__colors,
+          .grid__col--6.theme__colors,
+          .grid__col--4.theme__colors,
+          .grid__col--3.theme__colors,
+          .grid__col--5.theme__colors,
+          .grid__col--7.theme__colors,
+          .grid__col--8.theme__colors {
+            @include big_grid;
+          }
 
 
           // make column width a percentage of the column number / total columns

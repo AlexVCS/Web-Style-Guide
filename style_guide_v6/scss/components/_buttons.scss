@@ -29,10 +29,8 @@
     padding-top: 3px;
     font-weight: $light-font, bold;
     @include flex;
-}
 
-.grid__col--12 {
     @include dsktp {
-        display: flex;
+        flex-direction: column;
     }
 }

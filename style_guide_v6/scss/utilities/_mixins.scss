@@ -49,3 +49,10 @@
     padding-left: 10px;
     width: 95%;
 }
+
+@mixin big_grid {
+    text-align: center;
+    display: block;
+    width: 85%;
+    margin-left: 35px;
+}

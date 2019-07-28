@@ -389,60 +389,204 @@ template {
   .grid__row__col {
     flex-basis: 8.3333333333%;
   }
+  .grid__row__col .grid__col--12.theme__colors,
+.grid__row__col .grid__col--6.theme__colors,
+.grid__row__col .grid__col--4.theme__colors,
+.grid__row__col .grid__col--3.theme__colors,
+.grid__row__col .grid__col--5.theme__colors,
+.grid__row__col .grid__col--7.theme__colors,
+.grid__row__col .grid__col--8.theme__colors {
+    text-align: center;
+    display: block;
+    width: 85%;
+    margin-left: 35px;
+  }
 }
 @media (min-width: 768px) {
   .grid__row__col {
     flex-basis: 16.6666666667%;
+  }
+  .grid__row__col .grid__col--12.theme__colors,
+.grid__row__col .grid__col--6.theme__colors,
+.grid__row__col .grid__col--4.theme__colors,
+.grid__row__col .grid__col--3.theme__colors,
+.grid__row__col .grid__col--5.theme__colors,
+.grid__row__col .grid__col--7.theme__colors,
+.grid__row__col .grid__col--8.theme__colors {
+    text-align: center;
+    display: block;
+    width: 85%;
+    margin-left: 35px;
   }
 }
 @media (min-width: 768px) {
   .grid__row__col {
     flex-basis: 25%;
   }
+  .grid__row__col .grid__col--12.theme__colors,
+.grid__row__col .grid__col--6.theme__colors,
+.grid__row__col .grid__col--4.theme__colors,
+.grid__row__col .grid__col--3.theme__colors,
+.grid__row__col .grid__col--5.theme__colors,
+.grid__row__col .grid__col--7.theme__colors,
+.grid__row__col .grid__col--8.theme__colors {
+    text-align: center;
+    display: block;
+    width: 85%;
+    margin-left: 35px;
+  }
 }
 @media (min-width: 768px) {
   .grid__row__col {
     flex-basis: 33.3333333333%;
+  }
+  .grid__row__col .grid__col--12.theme__colors,
+.grid__row__col .grid__col--6.theme__colors,
+.grid__row__col .grid__col--4.theme__colors,
+.grid__row__col .grid__col--3.theme__colors,
+.grid__row__col .grid__col--5.theme__colors,
+.grid__row__col .grid__col--7.theme__colors,
+.grid__row__col .grid__col--8.theme__colors {
+    text-align: center;
+    display: block;
+    width: 85%;
+    margin-left: 35px;
   }
 }
 @media (min-width: 768px) {
   .grid__row__col {
     flex-basis: 41.6666666667%;
   }
+  .grid__row__col .grid__col--12.theme__colors,
+.grid__row__col .grid__col--6.theme__colors,
+.grid__row__col .grid__col--4.theme__colors,
+.grid__row__col .grid__col--3.theme__colors,
+.grid__row__col .grid__col--5.theme__colors,
+.grid__row__col .grid__col--7.theme__colors,
+.grid__row__col .grid__col--8.theme__colors {
+    text-align: center;
+    display: block;
+    width: 85%;
+    margin-left: 35px;
+  }
 }
 @media (min-width: 768px) {
   .grid__row__col {
     flex-basis: 50%;
+  }
+  .grid__row__col .grid__col--12.theme__colors,
+.grid__row__col .grid__col--6.theme__colors,
+.grid__row__col .grid__col--4.theme__colors,
+.grid__row__col .grid__col--3.theme__colors,
+.grid__row__col .grid__col--5.theme__colors,
+.grid__row__col .grid__col--7.theme__colors,
+.grid__row__col .grid__col--8.theme__colors {
+    text-align: center;
+    display: block;
+    width: 85%;
+    margin-left: 35px;
   }
 }
 @media (min-width: 768px) {
   .grid__row__col {
     flex-basis: 58.3333333333%;
   }
+  .grid__row__col .grid__col--12.theme__colors,
+.grid__row__col .grid__col--6.theme__colors,
+.grid__row__col .grid__col--4.theme__colors,
+.grid__row__col .grid__col--3.theme__colors,
+.grid__row__col .grid__col--5.theme__colors,
+.grid__row__col .grid__col--7.theme__colors,
+.grid__row__col .grid__col--8.theme__colors {
+    text-align: center;
+    display: block;
+    width: 85%;
+    margin-left: 35px;
+  }
 }
 @media (min-width: 768px) {
   .grid__row__col {
     flex-basis: 66.6666666667%;
+  }
+  .grid__row__col .grid__col--12.theme__colors,
+.grid__row__col .grid__col--6.theme__colors,
+.grid__row__col .grid__col--4.theme__colors,
+.grid__row__col .grid__col--3.theme__colors,
+.grid__row__col .grid__col--5.theme__colors,
+.grid__row__col .grid__col--7.theme__colors,
+.grid__row__col .grid__col--8.theme__colors {
+    text-align: center;
+    display: block;
+    width: 85%;
+    margin-left: 35px;
   }
 }
 @media (min-width: 768px) {
   .grid__row__col {
     flex-basis: 75%;
   }
+  .grid__row__col .grid__col--12.theme__colors,
+.grid__row__col .grid__col--6.theme__colors,
+.grid__row__col .grid__col--4.theme__colors,
+.grid__row__col .grid__col--3.theme__colors,
+.grid__row__col .grid__col--5.theme__colors,
+.grid__row__col .grid__col--7.theme__colors,
+.grid__row__col .grid__col--8.theme__colors {
+    text-align: center;
+    display: block;
+    width: 85%;
+    margin-left: 35px;
+  }
 }
 @media (min-width: 768px) {
   .grid__row__col {
     flex-basis: 83.3333333333%;
+  }
+  .grid__row__col .grid__col--12.theme__colors,
+.grid__row__col .grid__col--6.theme__colors,
+.grid__row__col .grid__col--4.theme__colors,
+.grid__row__col .grid__col--3.theme__colors,
+.grid__row__col .grid__col--5.theme__colors,
+.grid__row__col .grid__col--7.theme__colors,
+.grid__row__col .grid__col--8.theme__colors {
+    text-align: center;
+    display: block;
+    width: 85%;
+    margin-left: 35px;
   }
 }
 @media (min-width: 768px) {
   .grid__row__col {
     flex-basis: 91.6666666667%;
   }
+  .grid__row__col .grid__col--12.theme__colors,
+.grid__row__col .grid__col--6.theme__colors,
+.grid__row__col .grid__col--4.theme__colors,
+.grid__row__col .grid__col--3.theme__colors,
+.grid__row__col .grid__col--5.theme__colors,
+.grid__row__col .grid__col--7.theme__colors,
+.grid__row__col .grid__col--8.theme__colors {
+    text-align: center;
+    display: block;
+    width: 85%;
+    margin-left: 35px;
+  }
 }
 @media (min-width: 768px) {
   .grid__row__col {
     flex-basis: 100%;
+  }
+  .grid__row__col .grid__col--12.theme__colors,
+.grid__row__col .grid__col--6.theme__colors,
+.grid__row__col .grid__col--4.theme__colors,
+.grid__row__col .grid__col--3.theme__colors,
+.grid__row__col .grid__col--5.theme__colors,
+.grid__row__col .grid__col--7.theme__colors,
+.grid__row__col .grid__col--8.theme__colors {
+    text-align: center;
+    display: block;
+    width: 85%;
+    margin-left: 35px;
   }
 }
 
@@ -508,6 +652,13 @@ template {
   margin-left: 20px;
 }
 
+@media (min-width: 1400px) {
+  .card p {
+    width: 85%;
+    margin-left: 50px;
+  }
+}
+
 p {
   line-height: 27px;
   padding-left: 25px;
@@ -545,12 +696,6 @@ p {
   padding: 0;
   display: block;
 }
-@media (min-width: 1400px) {
-  .grid__col--9 ul {
-    width: 70%;
-    flex-direction: column;
-  }
-}
 
 .nav li {
   line-height: 45px;
@@ -566,6 +711,11 @@ p {
 }
 .nav li:hover a {
   color: #fff;
+}
+@media (min-width: 1400px) {
+  .nav li {
+    flex-wrap: nowrap;
+  }
 }
 
 .nav__item {
@@ -584,6 +734,97 @@ p {
   margin: auto;
 }
 
+@media (min-width: 1400px) {
+  .nav__item {
+    display: inline-block;
+    margin-top: 20px;
+    padding-right: 15px;
+  }
+
+  .grid__col--9 ul {
+    padding-right: 75px;
+  }
+
+  .img--logo {
+    padding-right: 100px;
+  }
+
+  .nav__item a {
+    margin-left: 20px;
+  }
+
+  .headline--primary {
+    margin-left: 65px;
+  }
+
+  .card .headline--secondary {
+    margin-left: 50px;
+  }
+
+  .grid__col--8 p {
+    padding-top: 20px;
+    width: 75%;
+  }
+
+  .blockquote {
+    display: inline-block;
+    margin-left: 100px;
+    padding-left: 45px;
+    line-height: 45px;
+    width: 60%;
+  }
+
+  .form .headline--secondary {
+    padding-right: 40px;
+  }
+
+  .form .img--avatar {
+    margin-bottom: 30px;
+  }
+
+  .form__input {
+    margin-right: 60px;
+    width: 120%;
+  }
+
+  .form button {
+    width: 100%;
+  }
+
+  .headline--secondary {
+    margin-left: 30px;
+  }
+
+  .img--frame {
+    margin-left: 80px;
+  }
+
+  .grid__col--6 .img--avatar {
+    margin-left: 625px;
+  }
+
+  .grid__col--12 button {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-left: 100px;
+    padding-left: 55px;
+    text-align: center;
+    padding-right: 55px;
+    width: 10%;
+  }
+
+  .grid__col--12.theme__colors,
+.grid__col--6.theme__colors,
+.grid__col--4.theme__colors,
+.grid__col--3.theme__colors,
+.grid__col--5.theme__colors,
+.grid__col--7.theme__colors,
+.grid__col--8.theme__colors {
+    text-align: center;
+    display: inline;
+  }
+}
 .img--logo {
   margin-top: 20px;
 }
@@ -651,10 +892,9 @@ p {
   justify-content: center;
   align-items: center;
 }
-
 @media (min-width: 1400px) {
-  .grid__col--12 {
-    display: flex;
+  .grid__col--12 button {
+    flex-direction: column;
   }
 }
 

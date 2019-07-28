@@ -10,6 +10,13 @@
     margin-left: 20px;
 }
 
+.card p {
+    @include dsktp {
+        width: 85%;
+        margin-left: 50px;
+    }
+}
+
 p {
     line-height: 27px;
     padding-left: 25px;
