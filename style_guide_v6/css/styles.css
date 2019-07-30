@@ -799,7 +799,7 @@ p {
 }
 .img--logo {
   margin-top: 20px;
-  padding-left: 120px;
+  display: block;
 }
 
 .img--frame {
@@ -814,6 +814,7 @@ p {
 @media (min-width: 1400px) {
   .img--logo {
     padding-right: 100px;
+    margin-left: 0;
   }
 
   .img--frame {
