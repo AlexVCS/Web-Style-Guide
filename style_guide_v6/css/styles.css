@@ -651,9 +651,14 @@ template {
 .grid__col--7.theme__colors,
 .grid__col--8.theme__colors {
     text-align: center;
-    display: inline;
+    display: flex;
     margin-left: 60px;
     margin-right: 60px;
+    justify-content: center;
+    align-items: center;
+    flex-basis: auto;
+    flex-grow: 2;
+    width: 100%;
   }
 }
 .headline--primary {
