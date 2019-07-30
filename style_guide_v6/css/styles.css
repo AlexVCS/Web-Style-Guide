@@ -692,6 +692,25 @@ p {
   padding-top: 50px;
 }
 
+@media (min-width: 1400px) {
+  .grid__col--12 p {
+    margin-left: 130px;
+  }
+
+  .card .headline--secondary {
+    margin-left: 130px;
+  }
+
+  .card .headline--primary {
+    margin-left: 150px;
+  }
+
+  .grid__col--8 p {
+    padding-top: 20px;
+    margin-left: 130px;
+    width: 80%;
+  }
+}
 .grid__col--9 ul {
   padding: 0;
   display: block;
@@ -734,6 +753,7 @@ p {
     display: inline-block;
     margin-top: 20px;
     padding-right: 15px;
+    margin-right: 50px;
   }
 
   .grid__col--9 ul {
@@ -750,15 +770,6 @@ p {
 
   .headline--primary {
     margin-left: 65px;
-  }
-
-  .card .headline--secondary {
-    margin-left: 50px;
-  }
-
-  .grid__col--8 p {
-    padding-top: 20px;
-    width: 75%;
   }
 
   .blockquote {
