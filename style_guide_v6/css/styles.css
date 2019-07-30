@@ -675,13 +675,6 @@ template {
   margin-left: 20px;
 }
 
-@media (min-width: 1400px) {
-  .card p {
-    width: 85%;
-    margin-left: 50px;
-  }
-}
-
 p {
   line-height: 27px;
   padding-left: 25px;
@@ -720,6 +713,10 @@ p {
     margin-left: 130px;
   }
 
+  .card {
+    padding-left: 30px;
+  }
+
   .card .headline--secondary {
     margin-left: 130px;
   }
@@ -730,15 +727,19 @@ p {
 
   .grid__col--8 p {
     padding-top: 20px;
-    margin-left: 130px;
     width: 80%;
+  }
+
+  .card p {
+    width: 85%;
+    padding-top: 20px;
   }
 
   .blockquote {
     margin-left: 190px;
     padding-left: 45px;
-    line-height: 45px;
-    width: 60%;
+    line-height: 40px;
+    width: 70%;
   }
 }
 .nav {
@@ -863,11 +864,6 @@ p {
   .form .headline--secondary {
     padding-right: 40px;
     margin-left: 5px;
-  }
-
-  .form .img--avatar {
-    margin-bottom: 30px;
-    margin-left: 40px;
   }
 
   .form__input {
