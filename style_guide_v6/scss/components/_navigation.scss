@@ -3,11 +3,12 @@
     display: block;
 }
 
-.nav li {
+.nav__item {
     line-height: 45px;
     margin-bottom: 5px;
 
     @include nav;
+    @include flex;
 
     &:hover {
         background-color: $nav_color;
@@ -16,10 +17,6 @@
             color: #fff;
         }
     }
-}
-
-.nav__item {
-    @include flex;
 }
 
 .nav__item a {
