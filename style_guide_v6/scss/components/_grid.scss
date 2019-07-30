@@ -119,3 +119,20 @@
   .grid__col--8.theme__colors {
     @include grid;
   }
+
+// Refactor later in SCSS!
+
+@media (min-width: 1400px) {
+  .grid__col--12.theme__colors,
+  .grid__col--6.theme__colors,
+  .grid__col--4.theme__colors,
+  .grid__col--3.theme__colors,
+  .grid__col--5.theme__colors,
+  .grid__col--7.theme__colors,
+  .grid__col--8.theme__colors {
+    text-align: center;
+    display: inline;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}

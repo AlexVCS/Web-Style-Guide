@@ -17,3 +17,30 @@
     border: none;
     border-radius: 4px;
 }
+
+// Refactor later in SCSS
+
+@media (min-width: 1400px) {
+    .form {
+        padding-right: 100px;
+    }
+    
+    .form .headline--secondary {
+        padding-right: 40px;
+        margin-left: 5px;
+      }
+      
+      .form .img--avatar {
+        margin-bottom: 30px;
+        margin-left: 40px;
+      }
+      
+      .form__input {
+        margin-right: 60px;
+        width: 120%;
+      }
+      
+      .form button {
+        width: 135%;
+      }
+}
