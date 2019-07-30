@@ -717,14 +717,6 @@ p {
     padding-left: 30px;
   }
 
-  .card .headline--secondary {
-    margin-left: 130px;
-  }
-
-  .card .headline--primary {
-    margin-left: 150px;
-  }
-
   .grid__col--8 p {
     padding-top: 20px;
     width: 80%;
@@ -736,7 +728,6 @@ p {
   }
 
   .blockquote {
-    margin-left: 190px;
     padding-left: 45px;
     line-height: 40px;
     width: 70%;
