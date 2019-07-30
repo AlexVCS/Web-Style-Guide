@@ -36,7 +36,6 @@
 
         // NOTE: replace with media query mixin if aiming for exceeds
         @include tablet {
-
           .grid__col--12.theme__colors,
           .grid__col--6.theme__colors,
           .grid__col--4.theme__colors,
@@ -136,8 +135,6 @@
     margin-right: 60px;
     justify-content: center;
     align-items: center;
-    flex-basis: auto;
-    flex-grow: 2;
     width: 100%;
   }
 }

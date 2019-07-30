@@ -1,46 +1,21 @@
 .form__label--hidden {
-    display: none;
+    display: $no;
 }
 
 .form__input {
-    width: 80%;
-    padding: 5px 15px 25px 15px;
-    border: none;
-    border-bottom: 3px solid #58E1C1;
-    margin-bottom: 15px;
+   @include form_input;
 }
 
 .form button {
-    width: 90%;
+    width: 85%;
     @extend%button--text;
     height: 40px;
-    border: none;
+    margin-left: 20px;
+    border: $no;
     border-radius: 4px;
 }
 
-// Refactor later in SCSS
 
-@media (min-width: 1400px) {
-    .form {
-        padding-right: 100px;
-    }
-    
-    .form .headline--secondary {
-        padding-right: 40px;
-        margin-left: 5px;
-      }
-      
-      .form .img--avatar {
-        margin-bottom: 30px;
-        margin-left: 40px;
-      }
-      
-      .form__input {
-        margin-right: 60px;
-        width: 120%;
-      }
-      
-      .form button {
-        width: 135%;
-      }
+@include dsktp {
+ @include dsktp_form;
 }

@@ -12,3 +12,18 @@
     @extend %img;
     padding-top: 25px;
 }
+
+
+@include dsktp {
+    .img--logo {
+        padding-right: 100px;
+      }
+
+    .img--frame {
+        margin-left: 80px;
+      }
+    
+    .grid__col--6 .img--avatar {
+        margin-left: 625px;
+      }
+}

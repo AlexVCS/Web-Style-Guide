@@ -38,22 +38,15 @@ p {
 }
 
 .blockquote {
-    @include flex;
-    font-style: italic;
-    font-size: 28px;
-    line-height: 32px;
-    border-left: 7px solid #58E1C1;
-    border-radius: 4px;
-    padding-left: 15px;
+   @include blockquote;
 }
 
 .form {
     padding-top: 50px;
 }
 
-// Refactor later!
 
-@media (min-width: 1400px) {
+@include dsktp {
     .grid__col--12 p {
         margin-left: 130px;
     }
@@ -62,7 +55,7 @@ p {
         margin-left: 130px;
     }
 
-    .card  .headline--primary {
+    .card .headline--primary {
         margin-left: 150px;
     }
 

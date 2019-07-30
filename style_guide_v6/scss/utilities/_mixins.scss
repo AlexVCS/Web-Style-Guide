@@ -30,7 +30,7 @@
 // Navigation Mixins
 
 @mixin nav {
-    list-style: none;
+    list-style: $no;
     text-align: center;
     font-family: $font-family-primary;
     font-weight: $medium-font;
@@ -40,6 +40,79 @@
     text-decoration: none;
     color: #000;
 }
+
+// Blockquote Mixins
+
+@mixin blockquote {
+@include flex;
+font-style: italic;
+font-size: 28px;
+line-height: 32px;
+border-left: 7px solid #58E1C1;
+border-radius: 4px;
+padding-left: 15px;
+}
+
+// Form Mixins
+
+@mixin form_input {
+    width: 70%;
+    padding: 5px 15px 25px 15px;
+    border: $no;
+    border-bottom: 3px solid #58E1C1;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+@mixin dsktp_form {
+    .form {
+        padding-right: 100px;
+    }
+    
+    .form .headline--secondary {
+        padding-right: 40px;
+        margin-left: 5px;
+      }
+      
+      .form .img--avatar {
+        margin-bottom: 30px;
+        margin-left: 40px;
+      }
+      
+      .form__input {
+        margin-right: 60px;
+        width: 120%;
+      }
+      
+      .form button {
+        width: 135%;
+      }
+}
+
+// Button Mixins
+
+@mixin mobile-button {
+    text-transform: uppercase;
+    width: 85%;
+    color: #fff;
+    border: $no;
+    border-radius: 4px;
+    line-height: 35px;
+    margin: 0 auto 20px;
+    padding-top: 3px;
+    font-weight: $light-font, bold;
+}
+
+@mixin button {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-left: 100px;
+    padding-left: 55px;
+    text-align: center;
+    padding-right: 55px;
+    width: 10%;
+} 
 
 // Grid Mixins
 
