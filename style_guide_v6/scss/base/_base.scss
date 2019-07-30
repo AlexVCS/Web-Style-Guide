@@ -2,3 +2,10 @@
     font-family: $font-family-primary;
     font-weight: $medium-font;
 }
+
+@include dsktp {
+    * {
+        max-width: 1150px;
+        margin: 0 auto;
+    }
+}

@@ -1,4 +1,4 @@
-.grid__col--9 ul { 
+.nav { 
     padding: 0;
     display: block;
 }
@@ -26,8 +26,17 @@
     @include nav_buttons;
 }
 
-.grid__col--3 {
-    margin: auto;
+@include tablet {
+  .nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav li {
+    margin-left: 20px;
+  }
+
+
 }
 
 // CSS to LATER REFACTOR IN SCSS

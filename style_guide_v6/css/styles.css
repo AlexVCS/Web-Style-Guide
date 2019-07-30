@@ -36,6 +36,12 @@
   font-weight: 400;
 }
 
+@media (min-width: 1400px) {
+  * {
+    max-width: 1150px;
+    margin: 0 auto;
+  }
+}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -380,7 +386,7 @@ template {
   display: flex;
   flex-direction: column;
 }
-@media (min-width: 768px) {
+@media (min-width: 1400px) {
   .grid__row {
     flex-direction: row;
   }
@@ -735,7 +741,7 @@ p {
     width: 60%;
   }
 }
-.grid__col--9 ul {
+.nav {
   padding: 0;
   display: block;
 }
@@ -768,10 +774,16 @@ p {
   color: #000;
 }
 
-.grid__col--3 {
-  margin: auto;
-}
+@media (min-width: 768px) {
+  .nav {
+    display: flex;
+    justify-content: center;
+  }
 
+  .nav li {
+    margin-left: 20px;
+  }
+}
 @media (min-width: 1400px) {
   .nav__item {
     display: inline-block;
