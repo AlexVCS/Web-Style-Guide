@@ -691,6 +691,7 @@ p {
 .img--frame {
   border: 1px solid grey;
   padding: 10px;
+  max-width: 100%;
 }
 
 .img--avatar {
