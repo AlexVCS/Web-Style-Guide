@@ -8,6 +8,8 @@
 
 .form button {
     width: 85%;
+    margin: 0 auto;
+    display: inherit;
     @extend%button--text;
     height: 40px;
     margin-left: 20px;

@@ -38,7 +38,7 @@
 
 // CSS to LATER REFACTOR IN SCSS
 
-@media (min-width: 1400px) {
+@include tablet {
     .nav__item {
       display: inline-block;
       margin-top: 20px;

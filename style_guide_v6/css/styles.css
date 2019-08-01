@@ -659,7 +659,7 @@ p {
     margin-left: 20px;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 768px) {
   .nav__item {
     display: inline-block;
     margin-top: 20px;
@@ -722,6 +722,8 @@ p {
 
 .form button {
   width: 85%;
+  margin: 0 auto;
+  display: inherit;
   height: 40px;
   margin-left: 20px;
   border: none;
@@ -732,15 +734,6 @@ p {
   .form .headline--secondary {
     padding-right: 40px;
     margin-left: 5px;
-  }
-
-  .form__input {
-    margin-right: 60px;
-    width: 120%;
-  }
-
-  .form button {
-    width: 135%;
   }
 }
 .btn--default {
