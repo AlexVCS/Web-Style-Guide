@@ -64,11 +64,7 @@ padding-left: 15px;
     margin-bottom: 15px;
 }
 
-@mixin dsktp_form {
-    .form {
-        padding-right: 100px;
-    }
-    
+@mixin dsktp_form {    
     .form .headline--secondary {
         padding-right: 40px;
         margin-left: 5px;

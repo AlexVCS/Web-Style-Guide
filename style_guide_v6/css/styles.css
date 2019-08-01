@@ -729,10 +729,6 @@ p {
 }
 
 @media (min-width: 1400px) {
-  .form {
-    padding-right: 100px;
-  }
-
   .form .headline--secondary {
     padding-right: 40px;
     margin-left: 5px;
