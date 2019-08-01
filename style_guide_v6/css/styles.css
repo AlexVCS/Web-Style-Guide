@@ -373,6 +373,7 @@ template {
 * {
   font-family: "Lato", Helvetica, Arial- sans-serif;
   font-weight: 400;
+  box-sizing: border-box;
 }
 
 @media (min-width: 1400px) {
