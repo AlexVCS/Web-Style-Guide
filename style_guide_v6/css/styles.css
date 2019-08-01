@@ -725,7 +725,6 @@ p {
   margin: 0 auto;
   display: inherit;
   height: 40px;
-  margin-left: 20px;
   border: none;
   border-radius: 4px;
 }
@@ -734,6 +733,10 @@ p {
   .form .headline--secondary {
     padding-right: 40px;
     margin-left: 5px;
+  }
+
+  .form__input {
+    width: 85%;
   }
 }
 .btn--default {
