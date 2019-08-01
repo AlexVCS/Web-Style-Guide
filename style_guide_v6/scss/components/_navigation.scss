@@ -23,22 +23,16 @@
     @include nav_buttons;
 }
 
-@include tablet {
-  .nav {
-    display: flex;
-    justify-content: center;
-  }
+@include mq(tablet) {
+    .nav {
+     display: flex;
+     justify-content: center;
+    }
 
-  .nav li {
-    margin-left: 20px;
-  }
-
-
-}
-
-// CSS to LATER REFACTOR IN SCSS
-
-@include tablet {
+    .nav li {
+     margin-left: 20px;
+    }
+  
     .nav__item {
       display: inline-block;
       margin-top: 20px;

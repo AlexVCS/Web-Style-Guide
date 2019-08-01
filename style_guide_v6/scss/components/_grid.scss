@@ -17,7 +17,7 @@
     flex-direction: column;
 
     // NOTE: replace with media query mixin if aiming for exceeds
-   @include tablet {
+   @include mq(tablet) {
       flex-direction: row;
     }
   }
@@ -40,7 +40,7 @@
         flex-basis: 100%;
 
         // NOTE: replace with media query mixin if aiming for exceeds
-        @include tablet {
+        @include mq(tablet) {
 
           // base stlyes applied to all grid columns
           margin-top: 0;
@@ -59,7 +59,7 @@
   & + & {
 
     // NOTE: replace with media query mixin if aiming for exceeds
-    @include tablet {
+    @include mq(tablet) {
 
       // add grid gutter
       margin-left: 10px;
@@ -70,7 +70,13 @@
 [class^=grid__col].theme__colors {
   padding: 15px 0;
   height: 45px;
-  text-align: center;
+  text-align: left;
+}
+
+[class^=grid__col].theme__colors {
+  @include mq(dsktp) {
+    text-align: center;
+  }
 }
 
 .grid__col--12.theme__colors {
@@ -108,4 +114,10 @@
 
 .centered {
   margin-bottom: 20px;
+}
+
+.centered.grid__col--7 {
+  @include mq(dsktp) {
+    align-content: center;
+  }
 }

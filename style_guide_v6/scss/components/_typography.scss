@@ -39,7 +39,7 @@ p {
 }
 
 
-@include dsktp {
+@include mq(dsktp) {
     .grid__col--12 p {
         margin-left: 130px;
     }

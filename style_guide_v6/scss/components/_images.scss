@@ -16,7 +16,7 @@
 }
 
 
-@include dsktp {
+@include mq(dsktp) {
     .img--logo {
         padding-right: 100px;
         margin-left: 0;

@@ -24,7 +24,7 @@
 }
 
 
-@include dsktp {
+@include mq(dsktp) {
     .grid__col--12 button {
       @include button;
     }
