@@ -706,10 +706,6 @@ p {
   .img--frame {
     margin-left: 80px;
   }
-
-  .grid__col--6 .img--avatar {
-    margin-left: 625px;
-  }
 }
 .form__label--hidden {
   display: none;
